@@ -1,6 +1,6 @@
 {
   "name": "theorx/autoloadermap",
-  "description": "Library for fetching composer autoloader map",
+  "description": "Library for fetching composer auto-loader map",
   "type": "library",
   "version": "0.0.0",
   "require-dev": {
@@ -13,5 +13,12 @@
       "email": "theorx@hotmail.com"
     }
   ],
-  "require": {}
+  "autoload": {
+    "psr-4": {
+      "Theorx\\AutoLoaderMap\\": "library/",
+      "Tests\\": "tests/"
+    }
+  },
+  "require": {
+  }
 }
