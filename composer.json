@@ -1,0 +1,17 @@
+{
+  "name": "theorx/autoloadermap",
+  "description": "Library for fetching composer autoloader map",
+  "type": "library",
+  "version": "0.0.0",
+  "require-dev": {
+    "phpunit/phpunit": "5.3"
+  },
+  "license": "GPLv3",
+  "authors": [
+    {
+      "name": "Lauri Orgla",
+      "email": "theorx@hotmail.com"
+    }
+  ],
+  "require": {}
+}
