@@ -19,7 +19,7 @@ class AutoLoaderMap implements IAutoLoaderMap {
      */
     public function getClassMap() : array {
 
-        return $this->requireMap(__DIR__ . '/../../composer/autoload_classmap.php');
+        return $this->requireMap(__DIR__ . '/../../../composer/autoload_classmap.php');
     }
 
     /**
@@ -28,7 +28,7 @@ class AutoLoaderMap implements IAutoLoaderMap {
      */
     public function getNamespaces() : array {
 
-        return $this->requireMap(__DIR__ . '/../../composer/autoload_namespaces.php');
+        return $this->requireMap(__DIR__ . '/../../../composer/autoload_namespaces.php');
     }
 
     /**
@@ -37,7 +37,7 @@ class AutoLoaderMap implements IAutoLoaderMap {
      */
     public function getPSR4() : array {
 
-        return $this->requireMap(__DIR__ . '/../../composer/autoload_psr4.php');
+        return $this->requireMap(__DIR__ . '/../../../composer/autoload_psr4.php');
     }
 
     /**
@@ -66,7 +66,7 @@ class AutoLoaderMap implements IAutoLoaderMap {
      */
     private function requireMap(string $file) : array {
 
-        if($this->fileExists($file)) {
+        if(!$this->fileExists($file)) {
             throw new MapLoadingException;
         }
 
