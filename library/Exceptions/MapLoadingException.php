@@ -13,7 +13,7 @@ class MapLoadingException extends \Exception {
     /**
      * @var string
      */
-    public $message = 'Couldn\'t load autoloader maps. Are you using composer? try running composer dump-autoload -o';
+    public $message = 'Couldn\'t load autoloader maps. Are you using composer?';
     /**
      * @var int
      */
