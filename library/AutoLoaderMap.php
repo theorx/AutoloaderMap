@@ -70,6 +70,6 @@ class AutoLoaderMap implements IAutoLoaderMap {
             throw new MapLoadingException;
         }
 
-        return (array)require_once($file);
+        return (array)require($file);
     }
 }
