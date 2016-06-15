@@ -18,7 +18,7 @@
 
 ## Usage
 
-*Require theorx/autoloadermap with composer. Example: ´composer require theorx/autoloadermap´*
+*Require theorx/autoloadermap with composer. Example: `composer require theorx/autoloadermap`*
 
 ```
 <?php
