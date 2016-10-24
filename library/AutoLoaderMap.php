@@ -49,7 +49,7 @@ class AutoLoaderMap implements IAutoLoaderMap {
      *
      * @return bool
      */
-    private function fileExists(string $file) : bool {
+    protected function fileExists(string $file) : bool {
 
         return file_exists($file);
     }
@@ -64,7 +64,7 @@ class AutoLoaderMap implements IAutoLoaderMap {
      * @return array
      * @throws MapLoadingException
      */
-    private function requireMap(string $file) : array {
+    public function requireMap(string $file) : array {
 
         if(!$this->fileExists($file)) {
             throw new MapLoadingException;
