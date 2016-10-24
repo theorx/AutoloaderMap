@@ -2,7 +2,7 @@
   "name": "theorx/autoloadermap",
   "description": "Library for fetching composer auto-loader map",
   "type": "library",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "require-dev": {
     "phpunit/phpunit": "5.3"
   },
@@ -18,7 +18,5 @@
       "Theorx\\AutoLoaderMap\\": "library/",
       "Tests\\": "tests/"
     }
-  },
-  "require": {
   }
 }
