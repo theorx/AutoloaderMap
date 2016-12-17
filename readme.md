@@ -27,7 +27,7 @@ require_once(__DIR__.'/vendor/autoload.php');
 
 $autoLoaderMap = new Theorx\AutoLoaderMap\AutoLoaderMap();
 
-//get CLasmap
+//get Classmap
 $autoLoaderMap->getClassMap(); //Returns array of classes
 
 //get namespaces
