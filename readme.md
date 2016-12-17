@@ -1,5 +1,6 @@
 # Auto-loader map
-----
+[![Build Status](https://travis-ci.org/theorx/AutoloaderMap.svg?branch=master)](https://travis-ci.org/theorx/AutoloaderMap)
+
 
 ## Description
 *This library makes composer's auto-loader map accessible without having to manually find the files for inclusion.*
